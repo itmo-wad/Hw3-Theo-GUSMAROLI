@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    </head>
+  <br>
+  <body>
+    
+    <div class="container">
+                 <div class="card-body">
+            <h5 class="card-title text-center">Sign In</h5>
+            <form class="form-signin" method="post">
+              <div class="form-label-group">
+                <input type="text" class="form-control" placeholder="Username" name="username" required value="{{
+                  request.form.username }}">
+              </div>
+              <br>
+              <div class="form-label-group">
+                <input type="password" class="form-control" placeholder="Password" name="password" required value="{{
+                  request.form.pwd }}">
+              </div>
+              <br>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+            </form>
+          </div>
+        </div>
+	<img src="../static/pipou.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 30%; border-radius: 60%;">
+  </body>
+</html>
